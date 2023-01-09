@@ -1,0 +1,91 @@
+.__Services {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.__Services__first__block {
+	width: 50%;
+}
+
+.__Services__first__block p {
+	padding: 0 0 0 10px;
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.__Services__second__block img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.__Services__third__block {
+	width: 50%;
+}
+
+.__Services__third__block ul li {
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// SERVICE SECOND
+.__Services__original__titles {
+	text-align: center;
+}
+
+.__Services__original__titles h1 {
+	font-size: 35px;
+}
+
+.__Services__original__titles p {
+	width: 45%;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0 auto;
+}
+
+// SERVICE THIRD
+.__Services__professionals__profession {
+	margin-top: 25px;
+	display: flex;
+}
+
+.__Services__professionals__profession img {
+	width: 50%;
+	height: 270px;
+	object-fit: contain;
+}
+
+.__Services__professionals__profession__titles {
+	background: #BCE2EF;
+}
+
+.__Services__professionals__profession__titles__another {
+	background: #E7FDFA;
+}
+
+.__Services__professionals__profession__titles h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-left: 10px;
+	font-size: 32px;
+}
+
+.__Services__professionals__profession__titles p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-left: 10px;
+	font-size: 22px;
+}
+
+.__Services__professionals__profession__titles__another h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-left: 10px;
+	font-size: 32px;
+}
+
+.__Services__professionals__profession__titles__another p {
+	text-align: right;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-right: 10px;
+	font-size: 22px;
+}

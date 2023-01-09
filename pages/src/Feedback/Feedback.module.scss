@@ -1,0 +1,78 @@
+.__Feedback {
+	margin: 20px auto;
+	background: #62A199;
+	padding: 20px 0 20px 0;
+
+	h1 {
+		text-align: center;
+		font-size: 30px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	p {
+		margin: 0 auto;
+		width: 50%;
+		text-align: center;
+		font-weight: 500;
+		font-size: 20px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	.__Feedback__person__form {
+		position: relative;
+		width: 700px;
+		margin: 10px auto;
+	}
+
+	.__Feedback__person__form img {
+		position: absolute;
+		top: 9px;
+		left: 15px;
+		width: 40px;
+		height: 40px;
+		object-fit: contain;
+	}
+
+	.__Feedback__person__form input {
+		font-size: 20px;
+		border: 1px #62A199;
+		border-radius: 13px;
+		padding: 20px 0 20px 60px;
+		margin: 0 0 0 20px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.__Feedback__person__form textarea {
+		font-size: 18px;
+		border: 1px #62A199;
+		border-radius: 13px;
+		padding: 20px 0 20px 60px;
+		margin: 0 0 0 20px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.__Feedback__button {
+		margin: 0 auto;
+		width: 200px;
+	}
+
+	.__Feedback__button .button {
+		font-size: 22px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		border: 1px #ffffff;
+		border-radius: 15px;
+		cursor: pointer;
+		padding: 10px;
+		width: 100%;
+		background: #E7FDFA;
+	}
+
+	.__Feedback__button .button:hover {
+		background: #536e6b88;
+		color: #ffffff;
+		border-radius: 13px;
+		box-shadow: 0 0 10px rgba(212, 194, 194, 0.925);
+	}
+}

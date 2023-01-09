@@ -1,0 +1,58 @@
+.__header {
+	padding: 10px;
+	background: #E7FDFA;
+	display: flex;
+	justify-content: space-between;
+}
+
+.__header_logotype {
+	align-items: center;
+	display: flex;
+}
+
+.__header_logotype img {
+	cursor: pointer;
+	object-fit: contain;
+	width: 80px;
+	height: 60px;
+	margin-right: 7px;
+}
+
+.__header_logotype p {
+	cursor: pointer;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.__header_logotype a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+// NAVIGATIONS
+.__navigations {
+	padding: 15px;
+	background: #BCE2EF;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.__navigations__elem {
+	cursor: pointer;
+	font-size: 22px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+// burger
+
+// 
+@media (max-width: 768px) {}
+
+// 
+@media (max-width: 540px) {}
+
+/* iphone (6/7/8/Plus) */
+@media (max-width: 395px) {}

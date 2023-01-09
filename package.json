@@ -1,0 +1,32 @@
+{
+	"name": "my-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"serve": "concurrently \"npm run dev\" \"npm run mock\"",
+		"mock": "json-server -w db.json -p 4200 -d 450"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"emailjs-com": "^3.2.0",
+		"next": "^12.1.4",
+		"nextjs-progressbar": "0.0.14",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"react-elastic-carousel": "^0.11.5",
+		"react-redux": "^7.2.8",
+		"redux": "^4.1.2",
+		"redux-thunk": "^2.4.1",
+		"sass": "^1.50.0",
+		"styled-components": "^5.3.5"
+	},
+	"devDependencies": {
+		"concurrently": "^7.1.0",
+		"eslint": "8.12.0",
+		"eslint-config-next": "12.1.4"
+	}
+}

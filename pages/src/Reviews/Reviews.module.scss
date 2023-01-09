@@ -1,0 +1,21 @@
+.__Reviews h1 {
+	margin-top: -10px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.__Reviews__slider__block {
+	font-size: 25px;
+	width: 100%;
+	cursor: pointer;
+	border: 1px solid #62A199;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.__Reviews__slider__block:hover {
+	background-color: #62A199;
+	color: white;
+}
